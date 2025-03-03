@@ -6,7 +6,7 @@ import pdfkit
 import os
 
 # Configure Gemini AI (Use a valid API Key)
-genai.configure(api_key="AIzaSyADzdGzwL3YTVYO2iXoUUmd1NQUUoAadgA")
+genai.configure(api_key="AIzaSyD4MohAnlXZPhuwK_2XXfGKWKofK-bIUYU")
 
 # AWS S3 Configuration
 AWS_ACCESS_KEY = "AKIAW3MD6I2E7ZUPNVPK"
@@ -104,7 +104,7 @@ def upload_to_s3(file_name, bucket_name, object_name=None):
 
 # Streamlit UI
 st.set_page_config(page_title="Interactive Thriller", layout="wide")
-st.title(" *Interactive Thriller Game* ")
+st.title(" *Build-up a sh**t* ")
 
 # New Scenario Button
 if st.button("🎲 New Story"):
