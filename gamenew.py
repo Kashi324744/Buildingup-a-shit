@@ -3,7 +3,7 @@ import random
 import google.generativeai as genai
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyADzdGzwL3YTVYO2iXoUUmd1NQUUoAadgA")  # ⚠ Replace with actual key
+genai.configure(api_key="")  # ⚠ Replace with actual key
 
 MODEL_NAME = "gemini-1.5-pro-001"
 
