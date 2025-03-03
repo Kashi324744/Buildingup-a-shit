@@ -6,12 +6,12 @@ import pdfkit
 import os
 
 # Configure Gemini AI (Use a valid API Key)
-genai.configure(api_key="AIzaSyDdf3sPrzHD39d2Er75E-DRNq1RbkYNOo0")
+genai.configure(api_key="")
 
 # AWS S3 Configuration
-AWS_ACCESS_KEY = "AKIAW3MD6I2E7ZUPNVPK"
-AWS_SECRET_KEY = "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"
-BUCKET_NAME = "rawemailbucket1"
+AWS_ACCESS_KEY = ""
+AWS_SECRET_KEY = ""
+BUCKET_NAME = ""
 
 MODEL_NAME = "gemini-1.5-pro-001"
 
