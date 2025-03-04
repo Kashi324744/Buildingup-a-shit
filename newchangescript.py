@@ -13,7 +13,7 @@ AWS_ACCESS_KEY = ""
 AWS_SECRET_KEY = ""
 BUCKET_NAME = ""
 
-MODEL_NAME = "gemini-1.5-pro-001"
+MODEL_NAME = "name of gemini api model that we can fetch"
 
 def generate_story():
     model = genai.GenerativeModel(MODEL_NAME)
